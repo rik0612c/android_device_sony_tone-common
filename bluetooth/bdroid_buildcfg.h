@@ -22,28 +22,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#pragma push_macro("PROPERTY_VALUE_MAX")
-
-#include <cutils/properties.h>
-#include <string.h>
-
-static inline const char* BtmGetDefaultName()
-{
-    char product_device[PROPERTY_VALUE_MAX];
-    property_get("ro.product.device", product_device, "");
-
-    if (strstr(product_device, "dora"))
-        return "Sony Xperia X Performance";
-    if (strstr(product_device, "kagura"))
-        return "Sony Xperia XZ";
-    if (strstr(product_device, "keyaki"))
-        return "Sony Xperia XZs";
-
-    // Fallback to ro.product.model
-    return "";
-}
-
-#define BTM_DEF_LOCAL_NAME BtmGetDefaultName()
 
 #define BTM_WBS_INCLUDED TRUE
 #define BTIF_HF_WBS_PREFERRED TRUE
