@@ -70,8 +70,6 @@ then
     $(echo "ro.semc.product.name=Xperia XZ" >> /oem/build.prop);
     $(echo "ro.semc.product.device=F83" >> /oem/build.prop);
     $(echo "ro.semc.version.sw_variant=GLOBALDS-LTE3D" >> /oem/build.prop);
-    $(echo "ro.build.description=kagura-user 8.0.0 OPR1.170623.026 1 dev-keys" >> /oem/build.prop);
-    $(echo "ro.bootimage.build.fingerprint=Sony/kagura/kagura:8.0.0/OPR1.170623.026/1:user/dev-keys" >> /oem/build.prop);
 elif [[ "$variant" == "F8332" ]]
 then
     $(echo "ro.sony.variant=${variant}" >> /oem/build.prop);
@@ -86,8 +84,6 @@ then
     $(echo "ro.semc.product.name=Xperia XZ Dualsim" >> /oem/build.prop);
     $(echo "ro.semc.product.device=F83" >> /oem/build.prop);
     $(echo "ro.semc.version.sw_variant=GLOBALDS-LTE3D" >> /oem/build.prop);
-    $(echo "ro.build.description=kagura_dsds-user 8.0.0 OPR1.170623.026 1 dev-keys" >> /oem/build.prop);
-    $(echo "ro.bootimage.build.fingerprint=Sony/kagura_dsds/kagura_dsds:8.0.0/OPR1.170623.026/1:user/dev-keys" >> /oem/build.prop);
 elif [[ "$variant" == "F8131" ]]
 then
     $(echo "ro.sony.variant=${variant}" >> /oem/build.prop);
@@ -96,8 +92,6 @@ then
     $(echo "ro.semc.product.model=F8131" >> /oem/build.prop);
     $(echo "ro.semc.version.sw=1304-1564" >> /oem/build.prop);
     $(echo "ro.semc.version.sw_variant=R1E" >> /oem/build.prop);
-    $(echo "ro.build.description=dora-user 8.0.0 OPR1.170623.026 1 dev-keys" >> /oem/build.prop);
-    $(echo "ro.bootimage.build.fingerprint=Sony/dora/dora:8.0.0/OPR1.170623.026/1:user/dev-keys" >> /oem/build.prop);
 fi
 }
 
