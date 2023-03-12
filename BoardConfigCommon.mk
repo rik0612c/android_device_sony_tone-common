@@ -121,9 +121,6 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
-# Encryption
-TARGET_HW_DISK_ENCRYPTION := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
 
