@@ -358,7 +358,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjson
 
-<<<<<<< HEAD:tone.mk
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
