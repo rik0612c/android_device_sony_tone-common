@@ -142,9 +142,6 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     libqomx_core
 
-PRODUCT_PACKAGES += \
-    GCam
-
 # Charger
 PRODUCT_PACKAGES += charger_res_images
 
